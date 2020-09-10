@@ -1,0 +1,123 @@
+/**index.wxss**/
+.lacdia .weui-half-screen-dialog__hd {
+  height: 134rpx;
+}
+.lacdia .weui-half-screen-dialog__bd {
+  padding: 0;
+}
+.lacdia .weui-half-screen-dialog__ft {
+  padding: 0 60rpx;
+}
+.lacdia .weui-half-screen-dialog {
+  border-radius: 24rpx 24rpx 0 0;
+}
+.lacdia .lactitle {
+  font-size: 34rpx;
+  color: #1a1a1a;
+  line-height: 46rpx;
+  font-weight: normal;
+}
+.lacdia .lacr {
+  font-size: 35rpx;
+  color: #fff;
+  font-weight: bold;
+  background: #ed1359;
+  padding: 0 4rpx;
+}
+.lacdia .lacb {
+  font-size: 35rpx;
+  color: #fff;
+  font-weight: bold;
+  background: #404042;
+  padding: 0 4rpx;
+}
+.lacdia .lacdesco {
+  font-size: 34rpx;
+  color: #080808;
+  font-weight: 500;
+  height: 76rpx;
+}
+.lacdia .lacdesct{
+  font-size: 28rpx;
+  color: #5e5e5e;
+  height: 76rpx;
+}
+.lacdia .btn {
+  font-size: 34rpx;
+  width: 46%;
+  height: 81rpx;
+  line-height: 81rpx;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+.lacdia .bor {
+  width: 43%;
+  border-top: 9rpx solid #3e3e3e;
+  margin: 65rpx auto 30rpx auto;
+  border-radius: 3px;
+}
+
+.logdia .weui-half-screen-dialog__hd {
+  height: 122rpx;
+}
+.logdia .weui-half-screen-dialog__bd {
+  padding: 0;
+}
+.logdia .weui-half-screen-dialog__ft {
+  padding: 0;
+}
+.logdia .logtitle {
+  font-size: 34rpx;
+}
+.logdia .logdesc {
+  height: 68rpx;
+  font-size: 28rpx;
+  color: #5e5e5e;
+}
+.logdia .logbtn {
+  font-size: 34rpx;
+  width: 72%;
+  height: 81rpx;
+  line-height: 81rpx;
+  padding: 0;
+  margin: 0 auto 40rpx auto;
+  font-weight: normal;
+}
+.logdia .text {
+  font-size: 22rpx;
+  line-height: 30rpx;
+  color: #5e5e5e;
+  text-align: left;
+}
+.logdia .text text {
+  color: #77a6e7;
+}
+.logdia .bor {
+  width: 34%;
+  border-top: 9rpx solid #3e3e3e;
+  margin: 65rpx auto 30rpx auto;
+  border-radius: 3px;
+}
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: red;
+  width: 100%;
+  
+}
+.userinfo-avatar {
+  width: 124rpx;
+  height: 124rpx;
+  /* margin: 20rpx; */
+  border-radius: 50%;
+}
+/* .userinfo-nickname {
+  color: #aaa;
+}
+.usermotto {
+  margin-top: 200px;
+} */

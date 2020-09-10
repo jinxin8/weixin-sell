@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="container">
+  <mp-halfScreenDialog
+    show="{{locshow}}"
+    maskClosable="{{false}}" 
+    closabled="{{false}}"
+    class="lacdia">
+    <view slot="title" class="lactitle">
+      <text class="lacr">U2</text>
+      <text class="lacb">COFFEE</text>
+      申请
+    </view>
+    <view slot="desc" class="lacdesco">获取你的位置信息</view>
+    <view slot="desc" class="lacdesct">你的位置信息将用于小程序点餐认证</view>
+    <view slot="footer">
+      <view style="display: flex;">
+        <button type="default" class="btn" bindtap="lacbtnClose" data-flag="{{false}}" style="margin-right:40rpx;color:#050505;">拒绝</button>
+        <button type="primary" class="btn" bindtap="lacbtnClose" data-flag="{{true}}" >同意</button>
+      </view>
+      <view class="bor"></view>
+    </view>
+  </mp-halfScreenDialog>
+  <mp-halfScreenDialog
+    show="{{show}}"
+    maskClosable="{{false}}"  
+    closabled="{{false}}"
+    class="logdia">
+    <view slot="title" class="logtitle">
+      欢迎登录U2COFFEE
+    </view>
+    <view slot="desc" class="logdesc">登录后消费可获得积分，享受更好的服务体验</view>
+    <view slot="footer">
+      <button type="primary" class="logbtn" bindtap="logbtnClose" >同意</button>
+      <view class="text">点击登录U2COFFEE即表示已阅读并同意
+        <text>《U2用户隐私条例》</text><text>《用户服务须知》</text>
+      </view>
+      <view class="bor"></view>
+    </view>
+  </mp-halfScreenDialog>
+
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <view class="usermotto">
+  </view>
+  </view>
+</view>
