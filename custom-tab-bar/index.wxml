@@ -7,7 +7,7 @@
       <view class="item" bindtap="currentItem" data-index="{{index}}">
         <!-- <mp-icon icon="{{item.icon}}" color="#979797" style="width:48rpx;height:48rpx;"></mp-icon> -->
         <i class="{{['iconfont',item.icon]}}" style="color:{{currentIndex===index?'#212121':'#979797'}};"></i>
-        <view class="text">{{item.title}}{{currentIndex}}</view>
+        <view class="text">{{item.title}}</view>
       </view>
     </block>
     <block wx:else>

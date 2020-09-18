@@ -1,4 +1,7 @@
 /**index.wxss**/
+.lacdia ,.logdia {
+  z-index: 99999;
+}
 .lacdia .weui-half-screen-dialog__hd {
   height: 134rpx;
 }

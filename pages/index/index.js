@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    locshow: false,
+    locshow: true,
     show: false,
     userInfo: {},
     hasUserInfo: false,
