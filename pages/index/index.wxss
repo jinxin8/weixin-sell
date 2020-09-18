@@ -100,24 +100,120 @@
   border-radius: 3px;
 }
 
-
+.content {
+  width: 100%;
+  height: 100%;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: red;
   width: 100%;
-  
+  height: 415rpx;
+  background-size: 100% 100%;
 }
 .userinfo-avatar {
   width: 124rpx;
   height: 124rpx;
-  /* margin: 20rpx; */
+  margin-top: 100rpx;
   border-radius: 50%;
+  background: #6666;
 }
-/* .userinfo-nickname {
-  color: #aaa;
+.userinfo-nickname {
+  margin-top: 45rpx;
+  font-size: 30rpx;
+  line-height: 30rpx;
+  color: #212121;
 }
-.usermotto {
-  margin-top: 200px;
-} */
+.userpoint {
+  font-size: 22rpx;
+  margin-top: 18rpx;
+  color:#5e5e5e;
+}
+.userpoint text {
+  color:#cd0141;
+}
+
+.cont {
+  box-shadow: 0 0 10rpx #d1d4dd;
+  background: #fff;
+  border-radius: 45rpx 45rpx 0 0;
+  margin-top: -45rpx;
+  background: #fff;
+  padding-bottom: 33rpx;
+}
+.conttitle {
+  width: 100%;
+  height: 119rpx;
+  background-size: 100% 100%;
+  border-radius: 45rpx 45rpx 0 0;
+  line-height: 119rpx;
+  color: #283941;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.titleo {
+  padding-left: 45rpx;
+  color: #cd0141;
+}
+.cont .center {
+  height: 420rpx;
+  display: flex;
+  padding: 0 30rpx;
+}
+.center .left ,.center .right {
+  flex: 1;
+  text-align: center;
+}
+.center .left {
+  border-radius: 0 50rpx 0 50rpx;
+  box-shadow: 0 0 10rpx #d1d4dd;
+  padding: 85rpx 0;
+}
+.center .right {
+  margin-left: 30rpx;
+  border-radius: 50rpx;
+}
+.right .righttop, .right .rightbottom {
+  border-radius: 50rpx;
+  box-shadow: 0 0 10rpx #d1d4dd;
+  height: 200rpx;
+}
+.right .righttop {
+  margin-bottom: 20rpx;
+}
+.center .icon {
+  width: 127rpx;
+  height: 134rpx;
+}
+.center .icon1 {
+  width: 86rpx;
+  height: 78rpx;
+  margin-top: 22rpx;
+}
+.center .title {
+  font-size: 30rpx;
+  color: #212121;
+  font-weight: bold;
+  line-height: 30rpx;
+  margin: 0 0 10rpx 0;
+}
+.center .desctitle {
+  font-size: 24rpx;
+  color: #696969;
+  line-height: 24rpx;
+}
+.cont .centxt {
+  height: 119rpx;
+  background-size: 100% 100%;
+  margin: 25rpx 30rpx 20rpx 30rpx;
+  box-shadow: 0 0 10rpx #d1d4dd;
+  border-radius: 15rpx;
+  padding: 19rpx 0 0 70rpx;
+}
+.cont .contbottom {
+  height: 321rpx;
+  margin: 0 30rpx;
+  background: #efefef;
+  border-radius: 15rpx;
+}

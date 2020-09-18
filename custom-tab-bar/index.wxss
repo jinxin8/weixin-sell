@@ -1,0 +1,49 @@
+/* components/footer/index.wxss */
+@import '/assets/iconfont/iconfont.wxss';
+.footerc {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 167rpx;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+}
+.footers {
+  box-shadow: 0 0 7rpx #c5c5c7;
+}
+.centerc {
+  height: 128rpx;
+  width: 128rpx;
+  position: relative;
+  background: #fff;
+  top: -17rpx;
+  border-radius: 50%;
+}
+.centeri {
+  height: 128rpx;
+  width: 128rpx;
+  background: #fff;
+  margin-top: -17rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 7rpx #c5c5c7;
+}
+.centerc .icon {
+  width: 94rpx;
+  height: 94rpx;
+  margin: 17rpx;
+}
+.item {
+  height: 93rpx;
+  text-align: center;
+  width: 20%;
+  padding-top: 15rpx;
+}
+.item .text {
+  font-size: 24rpx;
+}
+.item .iconfont {
+  font-size:50rpx;
+}

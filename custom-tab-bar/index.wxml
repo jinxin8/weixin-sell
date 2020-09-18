@@ -1,0 +1,20 @@
+<!--components/footer/index.wxml-->
+<view class="footerc footers">
+<view class="centeri"></view>
+<view class="footerc">
+  <block wx:for="{{navData}}" wx:key="index">
+    <block wx:if="{{item.title}}">
+      <view class="item" bindtap="currentItem" data-index="{{index}}">
+        <!-- <mp-icon icon="{{item.icon}}" color="#979797" style="width:48rpx;height:48rpx;"></mp-icon> -->
+        <i class="{{['iconfont',item.icon]}}" style="color:{{currentIndex===index?'#212121':'#979797'}};"></i>
+        <view class="text">{{item.title}}{{currentIndex}}</view>
+      </view>
+    </block>
+    <block wx:else>
+      <view class="centerc">
+        <image class="icon" src="/assets/images/footericon.png"></image>
+      </view>
+    </block>
+  </block>
+</view>
+</view>
